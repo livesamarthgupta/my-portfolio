@@ -20,34 +20,42 @@ const Homepage = () => {
               I'm a full stack developer.
             </h3>
             <br />
-            <Image
-              src={reactpng}
-              roundedCircle
-              width="171"
-              height="180"
-              className="m-3"
-            />
-            <Image
-              src={reduxpng}
-              roundedCircle
-              width="171"
-              height="180"
-              className="m-3"
-            />
-            <Image
-              src={springpng}
-              roundedCircle
-              width="171"
-              height="180"
-              className="m-3"
-            />
-            <Image
-              src={mysqlpng}
-              roundedCircle
-              width="171"
-              height="180"
-              className="m-3"
-            />
+            <div className="d-inline center">
+              <Image
+                src={reactpng}
+                roundedCircle
+                width="171"
+                height="180"
+                className="m-3 "
+              />
+            </div>
+            <div className="d-inline center">
+              <Image
+                src={reduxpng}
+                roundedCircle
+                width="171"
+                height="180"
+                className="m-3 "
+              />
+            </div>
+            <div className="d-inline center">
+              <Image
+                src={springpng}
+                roundedCircle
+                width="171"
+                height="180"
+                className="m-3 "
+              />
+            </div>
+            <div className="d-inline center">
+              <Image
+                src={mysqlpng}
+                roundedCircle
+                width="171"
+                height="180"
+                className="m-3 "
+              />
+            </div>
           </Col>
         </Row>
       </Container>
