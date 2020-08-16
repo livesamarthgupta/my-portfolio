@@ -1,0 +1,54 @@
+.fa {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: teal;
+  text-decoration: none;
+}
+
+.fa-linkedin {
+  color: #0072b1;
+}
+
+.fa-twitter {
+  color: #00acee;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  color: transparent;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-github {
+  color: black;
+}
+
+.footer {
+  background-color: #f5f5f5;
+  position: absolute;
+  width: 100%;
+}
