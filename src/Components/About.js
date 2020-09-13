@@ -16,7 +16,7 @@ const About = () => {
               <p className="float-right text-primary">2019 - Present</p>
               <ul className="ui bulleted list">
                 <li className="item">
-                  Presently working an agile environment for the design,
+                  Presently working in an agile environment for the design,
                   development, delivery and support of IBM-Tririga Platform,
                   working as a Full-stack developer in a team of 5 members who
                   are responsible for the modernization of older JSP based
