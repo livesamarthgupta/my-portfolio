@@ -16,10 +16,12 @@ const About = () => {
               <p className="float-right text-primary">2019 - Present</p>
               <ul className="ui bulleted list">
                 <li className="item">
-                  Presently working in the Platform Development team of
-                  IBM-Tririga consisting of 5 members who are responsible for
-                  the modernization of older JSP based pages into ReactJS
-                  components making the web app load faster.
+                  Presently working an agile environment for the design,
+                  development, delivery and support of IBM-Tririga Platform,
+                  working as a Full-stack developer in a team of 5 members who
+                  are responsible for the modernization of older JSP based
+                  report renderer into ReactJS components with redux state
+                  management making the report rendering faster and consistent.
                 </li>
                 <li className="item">
                   Also, improved the IBM-Tririga Platform by implementing
