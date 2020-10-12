@@ -1,6 +1,6 @@
 import React from "react";
 import { Form, Button, Container, Row, Col, Jumbotron } from "react-bootstrap";
-import Axios from "axios";
+import emailjs from 'emailjs-com';
 
 import "./Contact.css";
 
@@ -32,28 +32,25 @@ class Contact extends React.Component {
       disabled: true,
     });
 
-    Axios.post("http://localhost:3030/api/email", this.state)
-      .then((res) => {
-        if (res.data.success) {
+    emailjs.sendForm('service_tbbtf3y', 'samarth_portfolio_id', event.target, 'user_kq7UjDTmkAp7O1qOI7QPx')
+      .then((result) => {
+        console.log(result);
           this.setState({
-            disabled: false,
+            disabled: true,
             emailSent: true,
+            name: "",
+            email: "",
+            message: ""
           });
-        } else {
+      }, (error) => {
+          console.log(error);
           this.setState({
-            disabled: false,
-            emailSent: false,
-          });
-        }
-      })
-      .catch((err) => {
-        console.log(err);
-
-        this.setState({
           disabled: false,
           emailSent: false,
         });
       });
+
+    
   };
 
   render() {
@@ -71,7 +68,7 @@ class Contact extends React.Component {
         <Container fluid={true}>
           <Row className="justify-content-center">
             <Col md={8}>
-              <Form onSubmit={this.handleSubmit}>
+              <Form onSubmit={this.handleSubmit} method="POST">
                 <Form.Group>
                   <Form.Label htmlFor="full-name">Full Name</Form.Label>
                   <Form.Control
@@ -112,7 +109,7 @@ class Contact extends React.Component {
                   type="submit"
                   disabled={this.state.disabled}
                 >
-                  Send
+                   {this.state.emailSent ? "Message Sent" : "Send"}
                 </Button>
               </Form>
             </Col>
