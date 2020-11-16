@@ -15,20 +15,11 @@ const About = () => {
               </a>
               <p className="float-right text-primary">2019 - Present</p>
               <ul className="ui bulleted list">
-                <li className="item">
-                  Presently working in an agile environment for the design,
-                  development, delivery and support of IBM-Tririga Platform,
-                  working as a Full-stack developer in a team of 5 members who
-                  are responsible for the modernization of older JSP based
-                  report renderer into ReactJS components with redux state
-                  management making the report rendering faster and consistent.
-                </li>
-                <li className="item">
-                  Also, improved the IBM-Tririga Platform by implementing
-                  various enhancements and resolving various defects by
-                  troubleshooting and finding the root cause of the issue in the
-                  backend code that uses Java and Spring framework.
-                </li>
+                <li className="item">Presently working in an agile environment for the design, development, delivery and support of IBM-Tririga Platform.</li>
+                <li className="item">Rebuilding the frontend of IBM-Tririga from JSPs to ReactJS which decreased page load times to below 2 seconds and improved developer iteration speed dramatically.</li>
+                <li className="item">Was responsible for a11y for the whole application and got it to a score of 93 in the lighthouse report.</li>
+                <li className="item">Also, implemented various Restful APIs in Java/Spring that helped in rebuilding the UI using ReactJS.</li>
+                <li className="item">Fixed various defects in the platform code to make it more stable.</li>
               </ul>
             </li>
             <li>
