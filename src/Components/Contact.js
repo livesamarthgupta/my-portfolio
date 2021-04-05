@@ -11,8 +11,9 @@ class Contact extends React.Component {
       name: "",
       email: "",
       message: "",
-      disabled: false,
-      emailSent: null,
+      disabled: true,
+      emailSent: false,
+      error: false
     };
   }
 
@@ -24,6 +25,9 @@ class Contact extends React.Component {
     this.setState({
       [name]: value,
     });
+    
+    if(this.state.name.length > 0 && this.state.email.length > 0 && this.state.message.length > 0)
+      this.setState({ disabled: false });
   };
 
   handleSubmit = (event) => {
@@ -36,7 +40,6 @@ class Contact extends React.Component {
       .then((result) => {
         console.log(result);
           this.setState({
-            disabled: true,
             emailSent: true,
             name: "",
             email: "",
@@ -45,8 +48,8 @@ class Contact extends React.Component {
       }, (error) => {
           console.log(error);
           this.setState({
-          disabled: false,
           emailSent: false,
+          error: true
         });
       });
 
@@ -109,7 +112,7 @@ class Contact extends React.Component {
                   type="submit"
                   disabled={this.state.disabled}
                 >
-                   {this.state.emailSent ? "Message Sent" : "Send"}
+                   {this.state.emailSent && !this.state.error ? "Message Sent" : (!this.state.emailSent && this.state.error ? "Something went wrong!" : "Send")}
                 </Button>
               </Form>
             </Col>
