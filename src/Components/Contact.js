@@ -70,7 +70,7 @@ class Contact extends React.Component {
             <Col md={8}>
               <Form onSubmit={this.handleSubmit} method="POST">
                 <Form.Group>
-                  <Form.Label htmlFor="full-name">Full Name</Form.Label>
+                  <Form.Label htmlFor="full-name">Your Name</Form.Label>
                   <Form.Control
                     id="full-name"
                     name="name"
@@ -81,7 +81,7 @@ class Contact extends React.Component {
                 </Form.Group>
 
                 <Form.Group>
-                  <Form.Label htmlFor="email">Email</Form.Label>
+                  <Form.Label htmlFor="email">Your Email</Form.Label>
                   <Form.Control
                     id="email"
                     name="email"
@@ -92,7 +92,7 @@ class Contact extends React.Component {
                 </Form.Group>
 
                 <Form.Group>
-                  <Form.Label htmlFor="message">Message</Form.Label>
+                  <Form.Label htmlFor="message">What do you wanna say?</Form.Label>
                   <Form.Control
                     id="message"
                     name="message"
