@@ -108,7 +108,7 @@ class Contact extends React.Component {
 
                 <Button
                   className="d-inline-block "
-                  variant="btn btn-outline-dark"
+                  variant={this.state.error ? "btn btn-outline-danger" : "btn btn-outline-dark"}
                   type="submit"
                   disabled={this.state.disabled}
                 >
