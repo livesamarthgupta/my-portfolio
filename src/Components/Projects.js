@@ -52,10 +52,10 @@ class Projects extends Component {
             <a href="https://github.com/livesamarthgupta/LMS" target="_blank" rel="noopener noreferrer">
               <div className="card--display">
                 <i className="material-icons">menu_book</i>
-                <h2>Library Management System</h2>
+                <h2>Library Management</h2>
               </div>
               <div className="card--hover">
-                <h2>Library Management System</h2>
+                <h2>Library Management</h2>
                 <p>
                     Desktop app for Library Management with Authentication & Authorization modules, 
                     Database integration and more, build with Java.
@@ -69,7 +69,7 @@ class Projects extends Component {
 
         <div className="card-container">
           <div className="card">
-            <a href="https://github.com/livesamarthgupta/LMS" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/livesamarthgupta/Todo-List" target="_blank" rel="noopener noreferrer">
               <div className="card--display">
                 <i className="material-icons">checklist</i>
                 <h2>Todo-List</h2>
