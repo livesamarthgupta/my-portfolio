@@ -13,6 +13,9 @@ const Navigation = () => {
           <Link className="nav-link" to="/">
             <p className="h5 ml-2 mr-2">Home</p>
           </Link>
+          <Link className="nav-link" to="/projects">
+            <p className="h5 ml-2 mr-2">Projects</p>
+          </Link>
           <Link className="nav-link" to="/about">
             <p className="h5 ml-2 mr-2">About</p>
           </Link>
