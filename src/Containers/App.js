@@ -8,6 +8,7 @@ import Homepage from "../Components/Homepage";
 import "./App.css";
 import About from "../Components/About";
 import Contact from "../Components/Contact";
+import Projects from "../Components/Projects";
 
 class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
         <Container fluid={true} className="p-0">
           <Navbar />
           <Route path="/" exact component={Homepage} />
+          <Route path="/projects" component={Projects} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Footer />
