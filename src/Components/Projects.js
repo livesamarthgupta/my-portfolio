@@ -96,7 +96,7 @@ class Projects extends Component {
               <div className="card--hover">
                 <h2>My Portfolio</h2>
                 <p>
-                    My current portfolio built using ReactJS and Semantic UI.
+                    My current portfolio built using ReactJS, EmailJS and Semantic UI.
                 </p>
                 <p className="link">Click to see project</p>
               </div>
