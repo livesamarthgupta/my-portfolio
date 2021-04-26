@@ -49,6 +49,11 @@
 
 .footer {
   background-color: #f5f5f5;
-  position: absolute;
+  /* height: 100px; */
   width: 100%;
+
+  /* this makes the footer sticky */
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
