@@ -6,7 +6,7 @@ import "./Nav.css";
 
 const Navigation = () => {
   return (
-    <Navbar className="shadow p-3 mb-5 bg-white rounded" expand="lg">
+    <Navbar className=" p-3 mb-5 bg-white rounded" expand="lg">
       <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
       <Navbar.Collapse id="navbar-toggle" className="justify-content-md-center">
         <Nav className="d-flex justify-content-center">
