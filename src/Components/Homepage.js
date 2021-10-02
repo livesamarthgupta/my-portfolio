@@ -1,5 +1,6 @@
 import React from "react";
 import { Jumbotron, Container, Row, Col, Image } from "react-bootstrap";
+import Typewriter from 'typewriter-effect';
 
 import avatar from "../assets/avatar.png"
 import "./Homepage.css";
@@ -16,7 +17,21 @@ const Homepage = () => {
               Hi, I'm Samarth Gupta
             </h1>
             <h3 className="display-4 font-weight-light">
-              I'm a Software Engineer.
+              <Typewriter
+                onInit={(typewriter) => {
+                  typewriter.typeString(`I'm a Software Engineer.`)
+                    .deleteChars(18)
+                    .typeString(`Technical Blogger.`)
+                    .deleteChars(18)
+                    .typeString(`Mentor.`)
+                    .start();
+                }}
+
+                options={{
+                  loop: true,
+                  skipAddStyles: true
+                }}
+              />
             </h3>
             <br />
 
@@ -46,7 +61,7 @@ const Homepage = () => {
               rel="noopener noreferrer"
             ><i class="fa fa-github fa-2x" ></i></a>
           </Col>
-          
+
           <div className="d-inline ">
               <Image
                 src={avatar}
