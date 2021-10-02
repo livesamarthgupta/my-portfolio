@@ -51,7 +51,7 @@ const About = () => {
             </li>
             <li>
               <h5>RAMPUS</h5>
-              <a href="http://rampus.co.in/" rel="noopener noreferrer" target="_blank">Intermediate</a>
+              <a href="http://rampus.co.in/" rel="noopener noreferrer" target="_blank">Senior Secondary</a>
               <p className="float-right text-primary">2013 - 2015</p>
               <ul className="ui bulleted list">
                 <li className="item">Scored 75% with PCM.</li>
