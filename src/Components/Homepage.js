@@ -1,5 +1,5 @@
 import React from "react";
-import { Jumbotron, Container, Row, Col, Image, NavItem } from "react-bootstrap";
+import { Jumbotron, Container, Row, Col, Image } from "react-bootstrap";
 import Typewriter from 'typewriter-effect';
 
 import avatar from "../assets/avatar.png"
@@ -12,8 +12,9 @@ const Homepage = () => {
   const icons = Data.links.map((item) => (
     <a href={item.link}
        target="_blank"
-       rel="noopener noreferrer" >
-      <i class={item.icon} />
+       rel="noopener noreferrer"
+       key={item.link} >
+      <i className={item.icon}/>
     </a>
   ));
 

@@ -24,6 +24,10 @@
         {
             "icon" : "fa fa-github fa-2x",
             "link" : "https://github.com/livesamarthgupta"
+        },
+        {
+            "icon" : "fa fa-dev-to fa-2x",
+            "link" : "https://dev.to/livesamarthgupta"
         }
 
     ]

@@ -8,7 +8,7 @@ import Data from "../data/nav.json"
 
 const linkGenerator = (links) => {
   return links.map(link => (
-    <Link className="nav-link" to={link.link}>
+    <Link className="nav-link" to={link.link} key={link.link}>
       <p className="h5 ml-2 mr-2">{link.pagename}</p>
     </Link>
   ))
