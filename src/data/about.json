@@ -1,0 +1,50 @@
+{
+    "title" : "My Timeline",
+    "experience" : [
+        {
+            "title" : "Teradata",
+            "link" : "https://www.teradata.com/",
+            "role" : "Software Engineer",
+            "duration" : "2021 - Present",
+            "work" : [
+                "Working in a SAFe environment for the design, development, delivery and support of Teradata Viewpoint.",
+                "Collaborated with the security team to make Viewpont FIPS 140-2 compliant.",
+                "Enabled JWT integration in DataMover service for SSO environments by implementing singletons to maintain backward compatibility."
+            ]
+        },
+        {
+            "title" : "Wipro",
+            "link" : "https://www.wipro.com/en-IN/",
+            "role" : "Project Engineer",
+            "duration" : "2019 - 2021",
+            "work" : [
+                "Worked in an agile environment for the design, development, delivery and support of IBM-TRIRIGA Platform. IBM-TRIRIGA is used by Fortune-500 companies such as Google, Apple, Adobe as Integrated Workplace Management System.",
+                "Full-Stack Developer: Wrote and Reviewed code in Java, JavaScript (Spring/React). Also, implemented various RESTful APIs in Java/Spring that was consumed by the UI.",
+                "Worked with UX-Next Team to build the UX-Next Report Renderer in IBM-Tririga from scratch.",
+                "Implemented filter operator (”In Range”) for the back-end filter engine which reduces search queries by 50%.",
+                "Designed & developed a web component with features of session expiration warning & session renewal for SSO & Non-SSO environments hence reducing average session timeouts.",
+                "Implemented XLS export for BIRT Reports in custom workflows.",
+                "Was responsible for a11y for the whole application and got it to a score of 93 in the Lighthouse report.",
+                "Fixed various defects in the platform code to make it more stable."
+            ]
+        },
+        {
+            "title" : "AKTU",
+            "link" : "https://aktu.ac.in/",
+            "role" : "Undergraduate",
+            "duration" : "2015 - 2019",
+            "work" : [
+                "Undergone Bachelor of Technology in Computer Science and scored 80% in the overall result."
+            ]
+        },
+        {
+            "title" : "RAMPUS",
+            "link" : "http://rampus.co.in/",
+            "role" : "Senior Secondary",
+            "duration" : "2013 - 2015",
+            "work" : [
+                "Scored 75% with PCM."
+            ]
+        }
+    ]
+}

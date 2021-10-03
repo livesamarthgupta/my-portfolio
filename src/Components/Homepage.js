@@ -1,11 +1,22 @@
 import React from "react";
-import { Jumbotron, Container, Row, Col, Image } from "react-bootstrap";
+import { Jumbotron, Container, Row, Col, Image, NavItem } from "react-bootstrap";
 import Typewriter from 'typewriter-effect';
 
 import avatar from "../assets/avatar.png"
 import "./Homepage.css";
 
+import Data from "../data/homepage.json"
+
 const Homepage = () => {
+
+  const icons = Data.links.map((item) => (
+    <a href={item.link}
+       target="_blank"
+       rel="noopener noreferrer" >
+      <i class={item.icon} />
+    </a>
+  ));
+
   return (
     <Jumbotron className="bg-transparent jumbotron-fluid p-0">
       <Container fluid={true}>
@@ -14,19 +25,19 @@ const Homepage = () => {
         
           <Col md={8} sm={12} >
             <h1 className="display-1 font-weight-bolder">
-              Hi, I'm Samarth Gupta
+              {Data.title}
             </h1>
             <h3 className="display-4 font-weight-light">
               <Typewriter
                 onInit={(typewriter) => {
-                  typewriter.typeString(`I'm a Software Engineer.`)
-                    .deleteChars(18)
-                    .typeString(`Technical Blogger.`)
-                    .deleteChars(18)
-                    .typeString(`Mentor.`)
+                  typewriter.typeString(Data.IAM)
+                    .typeString(Data.role1)
+                    .deleteChars(Data.role1.length)
+                    .typeString(Data.role2)
+                    .deleteChars(Data.role2.length)
+                    .typeString(Data.role3)
                     .start();
                 }}
-
                 options={{
                   loop: true,
                   skipAddStyles: true
@@ -34,32 +45,7 @@ const Homepage = () => {
               />
             </h3>
             <br />
-
-            <a
-              href="https://www.instagram.com/livesamarthgupta/"
-              target="_blank"
-              rel="noopener noreferrer"
-            ><i class="fa fa-instagram fa-2x" ></i></a>
-            <a
-              href="https://twitter.com/livesamarth"
-              target="_blank"
-              rel="noopener noreferrer"
-            ><i class="fa fa-twitter fa-2x" ></i></a>
-            <a
-              href="https://www.facebook.com/livesamarthgupta"
-              target="_blank"
-              rel="noopener noreferrer"
-            ><i class="fa fa-facebook fa-2x" ></i></a>
-            <a
-              href="https://www.linkedin.com/in/livesamarthgupta/"
-              target="_blank"
-              rel="noopener noreferrer"
-            ><i class="fa fa-linkedin fa-2x" ></i></a>
-            <a
-              href="https://github.com/livesamarthgupta"
-              target="_blank"
-              rel="noopener noreferrer"
-            ><i class="fa fa-github fa-2x" ></i></a>
+            {icons}
           </Col>
 
           <div className="d-inline ">

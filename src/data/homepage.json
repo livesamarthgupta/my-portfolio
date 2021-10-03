@@ -1,0 +1,30 @@
+{
+    "title" : "Hi, I'm Samarth Gupta",
+    "IAM" : "I'm a ",
+    "role1" : "Software Engineer.",
+    "role2" : "Technical Blogger.",
+    "role3" : "Mentor.",
+    "links" : [
+        {
+            "icon" : "fa fa-instagram fa-2x",
+            "link" : "https://www.instagram.com/livesamarthgupta/"
+        },
+        {
+            "icon" : "fa fa-twitter fa-2x",
+            "link" : "https://twitter.com/livesamarth"
+        },
+        {
+            "icon" : "fa fa-facebook fa-2x",
+            "link" : "https://www.facebook.com/livesamarthgupta"
+        },
+        {
+            "icon" : "fa fa-linkedin fa-2x",
+            "link" : "https://www.linkedin.com/in/livesamarthgupta/"
+        },
+        {
+            "icon" : "fa fa-github fa-2x",
+            "link" : "https://github.com/livesamarthgupta"
+        }
+
+    ]
+}
