@@ -20,8 +20,12 @@
 
 .ui.card{
     margin: 0px;
+    margin-bottom: 10px;
 }
  
+.ui.card:last-child {
+    margin-bottom: 10px;
+}
 
 @media screen and (max-width: 1000px) {
     .card{
