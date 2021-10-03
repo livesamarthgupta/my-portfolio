@@ -13,6 +13,10 @@
             "pagename" : "About"
         },
         {
+            "link" : "/blogs",
+            "pagename" : "Blogs"
+        },
+        {
             "link" : "/contact",
             "pagename" : "Contact"
         }

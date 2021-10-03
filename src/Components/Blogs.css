@@ -1,0 +1,48 @@
+.marginal {
+    margin: 10px
+}
+
+.default-color {
+    color: black;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.card:hover {
+     transform: scale(1.05);
+     box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.ui.card{
+    margin: 0px;
+}
+ 
+
+@media screen and (max-width: 1000px) {
+    .card{
+        width: 40%;
+    }
+    .ui.card{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .container {
+        width: 100%;
+    }
+
+    .card{
+        width: 80%;
+    }
+
+    .ui.card{
+        margin-bottom: 10px;
+    }
+
+}
