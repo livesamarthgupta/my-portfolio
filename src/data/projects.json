@@ -1,0 +1,42 @@
+{
+    "linktext" : "Click to see project",
+    "projects" : [
+        {
+            "link" : "https://github.com/livesamarthgupta/Mini-Youtube",
+            "icon" : "play_circle_filled",
+            "title" : "Mini-YouTube",
+            "desc" : "Mini-YouTube is a single page application made with JavaScript & ReactJS for easily accessing YouTube on low end devices."
+        },
+        {
+            "link" : "https://github.com/livesamarthgupta/Lifestyle-Store",
+            "icon" : "local_grocery_store",
+            "title" : "Lifestyle Store",
+            "desc" : "A complete E-Commerce store with Authentication & Authorization, Session Management, Cart Handling and more, build with HTML/CSS/Bootstrap for the front-end, PHP as the back-end and MySQL as the data store."
+        },
+        {
+            "link" : "https://github.com/livesamarthgupta/LMS",
+            "icon" : "menu_book",
+            "title" : "Library Management",
+            "desc" : "Desktop app for Library Management with Authentication & Authorization modules, Database integration and more, build with Java."
+        },
+        {
+            "link" : "https://github.com/livesamarthgupta/Todo-List",
+            "icon" : "checklist",
+            "title" : "Todo-List",
+            "desc" : "A simple Todo-List made with Angular at it's core."
+        },
+        {
+            "link" : "https://github.com/livesamarthgupta/my-portfolio",
+            "icon" : "account_box",
+            "title" : "My Portfolio",
+            "desc" : "My current portfolio built using ReactJS, EmailJS and Semantic UI."
+        },
+        {
+            "link" : "https://github.com/livesamarthgupta/Bouncy",
+            "icon" : "sports_basketball",
+            "title" : "Bouncy",
+            "desc" : "Bouncy is a single page application game built with Angular at it's core."
+        }
+    ]
+
+}
