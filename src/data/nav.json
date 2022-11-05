@@ -5,10 +5,6 @@
             "pagename" : "Home"
         },
         {
-            "link" : "/projects",
-            "pagename" : "Projects"
-        },
-        {
             "link" : "/about",
             "pagename" : "About"
         },
