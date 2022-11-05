@@ -2,14 +2,27 @@
     "title" : "My Timeline",
     "experience" : [
         {
+            "title" : "PayTM",
+            "link" : "https://www.paytm.com/",
+            "role" : "Senior Software Engineer",
+            "duration" : "2022 - Present",
+            "work" : [
+                "Working in an agile environment in the central tech team under Paytm Promotions vertical.",
+                "Migrated payment-gateway related storm topologies from 1.x cluster to 2.x cluster in staging and live production with zero downtime and zero lost updates."
+            ]
+        },
+        {
             "title" : "Teradata",
             "link" : "https://www.teradata.com/",
             "role" : "Software Engineer",
-            "duration" : "2021 - Present",
+            "duration" : "2021 - 2022",
             "work" : [
-                "Working in a SAFe environment for the design, development, delivery and support of Teradata Viewpoint.",
-                "Collaborated with the security team to make Viewpont FIPS 140-2 compliant.",
-                "Enabled JWT integration in DataMover service for SSO environments by implementing singletons to maintain backward compatibility."
+                "Achieved zero downtime server upgrades by developing a prototype of upgrade service for Teradata Viewpoint.",
+                "Designed & developed a feature to alert the expiry of SSL certificates resulting in reduced fault tolerance in server security.",
+                "Solved the problem of storing configuration passwords in clear text by engineering a secure vault service which solved almost 20+ security risks related to weak password storage mechanisms.",
+                "Fixed 10k+ Viewpoint service from zero day vulnerability of log4jshell by implementing & releasing immediate patch.",
+                "Collaborated with the security team for FIPS 140-2 compliance resulting in adaptation of Viewpoint by US federal services.",
+                "Enabled JWT integration in DataMover portlet for SSO environments."
             ]
         },
         {
@@ -18,13 +31,13 @@
             "role" : "Project Engineer",
             "duration" : "2019 - 2021",
             "work" : [
-                "Worked in an agile environment for the design, development, delivery and support of IBM-TRIRIGA Platform. IBM-TRIRIGA is used by Fortune-500 companies such as Google, Apple, Adobe as Integrated Workplace Management System.",
+                "As part of UX-Next Team, worked on building the report renderer in IBM-TRIRIGA from scratch using React & Ag-Grid. IBM-TRIRIGA is used by Fortune-500 companies as Integrated Workplace Management System.",
+                "Added central state management by implementing react-redux in the application code. Also, added support for React-Devtools reducing effective debug time that led to overall 40% increase in team productivity.",
                 "Full-Stack Developer: Wrote and Reviewed code in Java, JavaScript (Spring/React). Also, implemented various RESTful APIs in Java/Spring that was consumed by the UI.",
-                "Worked with UX-Next Team to build the UX-Next Report Renderer in IBM-Tririga from scratch.",
-                "Implemented filter operator (”In Range”) for the back-end filter engine which reduces search queries by 50%.",
+                "Implemented filter operator ('In Range') for the back-end filter engine which reduces overall user search queries by 50%.",
                 "Designed & developed a web component with features of session expiration warning & session renewal for SSO & Non-SSO environments hence reducing average session timeouts.",
                 "Implemented XLS export for BIRT Reports in custom workflows.",
-                "Was responsible for a11y for the whole application and got it to a score of 93 in the Lighthouse report.",
+                "Improved lighthouse score from 74 to 93 for the platform by implementing web accessibility as per WCAG guidelines.",
                 "Fixed various defects in the platform code to make it more stable."
             ]
         },
@@ -43,7 +56,7 @@
             "role" : "Senior Secondary",
             "duration" : "2013 - 2015",
             "work" : [
-                "Scored 75% with PCM."
+                "Scored 75% with PCM as elective."
             ]
         }
     ]
